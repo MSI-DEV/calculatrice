@@ -110,7 +110,6 @@ let clear = document.querySelector(".clear-button")
 let operator = document.querySelectorAll(".button-operator")
 let egal = document.querySelector(".button-egal")
 let unButton = document.querySelectorAll(".button-number, .button-operator")
-
 let ecran = ""
 let operation = undefined
 
