@@ -140,3 +140,11 @@ saisies = [];
 document.querySelector(".ecran").innerText = "0";
 // console.log(saisies);
 })
+
+let calcul = document.querySelector(".button-egal");
+    calcul.addEventListener('click', (functionCalcul) => {
+      document.querySelector(".ecran").innerText = eval(
+      document.querySelector(".ecran").innerText)
+    });
+
+
